@@ -16,25 +16,25 @@ const Navbar = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
             <a href="#features" className="text-foreground hover:text-primary transition-colors font-medium">
-              Features
+              Product
             </a>
             <a href="#playground" className="text-foreground hover:text-primary transition-colors font-medium">
-              Playground
+              Solution
             </a>
             <a href="#resources" className="text-foreground hover:text-primary transition-colors font-medium">
-              Resources
-            </a>
-            <a href="#community" className="text-foreground hover:text-primary transition-colors font-medium">
-              Developers
+              Docs
             </a>
             <a href="#pricing" className="text-foreground hover:text-primary transition-colors font-medium">
               Pricing
+            </a>
+            <a href="#community" className="text-foreground hover:text-primary transition-colors font-medium">
+              Community
             </a>
           </div>
 
           <div className="hidden md:flex items-center gap-4">
             <Button variant="ghost">Sign In</Button>
-            <Button variant="accent">Get Started Free</Button>
+            <Button variant="accent">Get API Key</Button>
           </div>
 
           {/* Mobile menu button */}
@@ -51,23 +51,23 @@ const Navbar = () => {
           <div className="md:hidden py-4 border-t border-border">
             <div className="flex flex-col gap-4">
               <a href="#features" className="text-foreground hover:text-primary transition-colors font-medium">
-                Features
+                Product
               </a>
               <a href="#playground" className="text-foreground hover:text-primary transition-colors font-medium">
-                Playground
+                Solution
               </a>
               <a href="#resources" className="text-foreground hover:text-primary transition-colors font-medium">
-                Resources
-              </a>
-              <a href="#community" className="text-foreground hover:text-primary transition-colors font-medium">
-                Developers
+                Docs
               </a>
               <a href="#pricing" className="text-foreground hover:text-primary transition-colors font-medium">
                 Pricing
               </a>
+              <a href="#community" className="text-foreground hover:text-primary transition-colors font-medium">
+                Community
+              </a>
               <div className="flex flex-col gap-2 pt-4">
                 <Button variant="ghost" className="w-full">Sign In</Button>
-                <Button variant="accent" className="w-full">Get Started Free</Button>
+                <Button variant="accent" className="w-full">Get API Key</Button>
               </div>
             </div>
           </div>

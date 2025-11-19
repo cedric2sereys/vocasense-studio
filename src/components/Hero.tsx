@@ -32,12 +32,11 @@ const Hero = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button size="lg" variant="accent" className="group">
-              Get Started Free
+              Get API Key — Free
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button size="lg" variant="outline" className="group">
-              <Play className="mr-2 h-5 w-5" />
-              Watch Demo
+              Ask for a Demo
             </Button>
           </div>
 
@@ -48,12 +47,12 @@ const Hero = () => {
               <div className="text-muted-foreground">Languages Supported</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">&lt;100ms</div>
-              <div className="text-muted-foreground">Latency</div>
+              <div className="text-4xl font-bold text-green-400 mb-2">&lt;100ms</div>
+              <div className="text-muted-foreground">Average Latency</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">99.9%</div>
-              <div className="text-muted-foreground">Uptime SLA</div>
+              <div className="text-4xl font-bold text-primary mb-2">50K+</div>
+              <div className="text-muted-foreground">Active Developers</div>
             </div>
           </div>
         </div>
