@@ -25,7 +25,7 @@ const Navbar = () => {
               Resources
             </a>
             <a href="#community" className="text-foreground hover:text-primary transition-colors font-medium">
-              Community
+              Developers
             </a>
             <a href="#pricing" className="text-foreground hover:text-primary transition-colors font-medium">
               Pricing
@@ -60,7 +60,7 @@ const Navbar = () => {
                 Resources
               </a>
               <a href="#community" className="text-foreground hover:text-primary transition-colors font-medium">
-                Community
+                Developers
               </a>
               <a href="#pricing" className="text-foreground hover:text-primary transition-colors font-medium">
                 Pricing
