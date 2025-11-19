@@ -35,6 +35,16 @@ const Footer = () => {
                 </a>
               </li>
               <li>
+                <a href="#" className="text-sm text-muted-foreground hover:text-accent transition-colors">
+                  Real Time STT
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-sm text-muted-foreground hover:text-accent transition-colors">
+                  Asynchronous STT
+                </a>
+              </li>
+              <li>
                 <a href="#playground" className="text-sm text-muted-foreground hover:text-accent transition-colors">
                   Playground
                 </a>
@@ -79,6 +89,32 @@ const Footer = () => {
           </div>
 
           <div>
+            <h4 className="font-semibold text-foreground mb-4">Community</h4>
+            <ul className="space-y-2">
+              <li>
+                <a href="#community" className="text-sm text-muted-foreground hover:text-accent transition-colors">
+                  Discord
+                </a>
+              </li>
+              <li>
+                <a href="#playground" className="text-sm text-muted-foreground hover:text-accent transition-colors">
+                  Playground
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-sm text-muted-foreground hover:text-accent transition-colors">
+                  Blog
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-sm text-muted-foreground hover:text-accent transition-colors">
+                  Events
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
             <h4 className="font-semibold text-foreground mb-4">Company</h4>
             <ul className="space-y-2">
               <li>
@@ -87,8 +123,8 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#community" className="text-sm text-muted-foreground hover:text-accent transition-colors">
-                  Community
+                <a href="#" className="text-sm text-muted-foreground hover:text-accent transition-colors">
+                  Press
                 </a>
               </li>
               <li>

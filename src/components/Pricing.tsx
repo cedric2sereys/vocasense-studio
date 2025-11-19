@@ -53,69 +53,32 @@ const Pricing = () => {
   return (
     <section id="pricing" className="py-24 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-4">
-            Simple, transparent pricing
+            Pricing
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Start free and scale as you grow. No hidden fees, no surprises.
+          <p className="text-2xl font-semibold text-foreground mb-2">
+            Scale with flexible plans
           </p>
+          <p className="text-xl text-muted-foreground mb-6">
+            Affordable solutions for startups and independent developers
+          </p>
+          <div className="mb-8">
+            <h3 className="text-3xl font-bold text-foreground mb-2">Free</h3>
+            <p className="text-muted-foreground mb-4">Developer-friendly pricing model</p>
+            <p className="text-lg text-muted-foreground mb-8">
+              Pay only for what you use. No hidden fees.
+            </p>
+          </div>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button size="lg" variant="outline">
+              Compare plans
+            </Button>
+            <Button size="lg" variant="accent">
+              Contact Sales
+            </Button>
+          </div>
         </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          {plans.map((plan, index) => (
-            <Card
-              key={index}
-              className={`relative ${
-                plan.highlighted
-                  ? "border-2 border-accent shadow-xl scale-105"
-                  : "border-border"
-              }`}
-            >
-              {plan.highlighted && (
-                <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                  <span className="bg-accent text-accent-foreground px-4 py-1 rounded-full text-sm font-semibold">
-                    Most Popular
-                  </span>
-                </div>
-              )}
-              <CardHeader>
-                <CardTitle className="text-2xl">{plan.name}</CardTitle>
-                <CardDescription>{plan.description}</CardDescription>
-                <div className="mt-4">
-                  <span className="text-4xl font-bold text-foreground">{plan.price}</span>
-                  {plan.price !== "Custom" && (
-                    <span className="text-muted-foreground">/month</span>
-                  )}
-                </div>
-              </CardHeader>
-              <CardContent>
-                <Button
-                  variant={plan.highlighted ? "accent" : "outline"}
-                  className="w-full mb-6"
-                  size="lg"
-                >
-                  {plan.cta}
-                </Button>
-                <ul className="space-y-3">
-                  {plan.features.map((feature, featureIndex) => (
-                    <li key={featureIndex} className="flex items-start gap-3">
-                      <Check className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
-                      <span className="text-sm text-muted-foreground">{feature}</span>
-                    </li>
-                  ))}
-                </ul>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-
-        <p className="text-center text-muted-foreground mt-12">
-          All plans include basic features. Need something custom?{" "}
-          <a href="#" className="text-accent hover:underline font-semibold">
-            Contact our team
-          </a>
-        </p>
       </div>
     </section>
   );

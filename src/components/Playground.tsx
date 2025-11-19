@@ -28,24 +28,9 @@ const Playground = () => {
   return (
     <section id="playground" className="py-24 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-4">
-            Try it now
-          </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Upload or record audio to see VocaSense in action. No sign-up required.
-          </p>
-        </div>
-
         <div className="max-w-4xl mx-auto">
           <Card className="border-2 border-accent/20">
-            <CardHeader>
-              <CardTitle>Audio Transcription Playground</CardTitle>
-              <CardDescription>
-                Upload an audio file (max 10 seconds) or record directly to test our real-time transcription
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
+            <CardContent className="pt-6">
               <div className="space-y-6">
                 {/* Upload Area */}
                 <div className="border-2 border-dashed border-border rounded-lg p-12 text-center hover:border-accent/50 transition-colors">
