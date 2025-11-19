@@ -4,19 +4,19 @@ import { Star } from "lucide-react";
 const testimonials = [
   {
     name: "Sarah Chen",
-    role: "CTO at AudioFlow",
+    role: "CTO, VoiceFlow AI",
     content: "VocaSense cut our integration time from weeks to hours. The API is incredibly intuitive and the latency is unmatched.",
     rating: 5,
   },
   {
     name: "Marcus Rodriguez",
-    role: "Lead Developer at TalkTech",
+    role: "Lead Developer, Podify",
     content: "Finally, a speech-to-text API that actually respects privacy. GDPR compliance out of the box was a game-changer for our European customers.",
     rating: 5,
   },
   {
-    name: "Lisa Park",
-    role: "Founder of VoiceNotes",
+    name: "Aisha Patel",
+    role: "Founder, Meeting Bot",
     content: "The multilingual support is phenomenal. We went from supporting 5 languages to 100+ overnight. Our users love it.",
     rating: 5,
   },
@@ -28,10 +28,10 @@ const Testimonials = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-4">
-            Trusted by developers worldwide
+            Loved by developers
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            See what developers are saying about building with VocaSense
+            See what teams are building with VocaSense
           </p>
         </div>
 
