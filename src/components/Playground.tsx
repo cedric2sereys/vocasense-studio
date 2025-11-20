@@ -29,6 +29,14 @@ const Playground = () => {
     <section id="playground" className="py-24 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              Try it <span className="text-primary">now</span>
+            </h2>
+            <p className="text-lg text-muted-foreground">
+              Upload an audio file or Record audio and see VocaSense in action. No sign-up required
+            </p>
+          </div>
           <Card className="border-2 border-accent/20">
             <CardContent className="pt-6">
               <div className="space-y-6">
