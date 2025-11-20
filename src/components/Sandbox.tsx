@@ -17,21 +17,20 @@ const Sandbox = () => {
               </div>
               <div className="bg-muted rounded-lg p-6 font-mono text-sm">
                 <pre className="text-foreground">
-                  <code>{`import VocaSense from 'vocasense';
-
-const client = new VocaSense({
-  apiKey: 'your_api_key_here'
-});
-
-// Real-time transcription
-const stream = await client.transcribe({
-  language: 'auto',
-  model: 'turbo'
-});
-
-stream.on('transcript', (text) => {
-  console.log('Transcription:', text);
-});`}</code>
+                  <code>
+                    <span className="text-muted-foreground">import</span> VocaSense <span className="text-muted-foreground">from</span> <span className="text-success">'vocasense'</span>;{'\n\n'}
+                    <span className="text-muted-foreground">const</span> client = <span className="text-muted-foreground">new</span> VocaSense({'{\n'}
+                    {'  '}apiKey: <span className="text-success">'your_api_key_here'</span>{'\n'}
+                    {'}'});{'\n\n'}
+                    <span className="text-muted-foreground">// Real-time transcription</span>{'\n'}
+                    <span className="text-muted-foreground">const</span> stream = <span className="text-muted-foreground">await</span> client.transcribe({'{\n'}
+                    {'  '}language: <span className="text-success">'auto'</span>,{'\n'}
+                    {'  '}model: <span className="text-success">'turbo'</span>{'\n'}
+                    {'}'});{'\n\n'}
+                    stream.on(<span className="text-success">'transcript'</span>, (text) {'=> {\n'}
+                    {'  '}console.log(<span className="text-success">'Transcription:'</span>, text);{'\n'}
+                    {'}'});
+                  </code>
                 </pre>
               </div>
             </CardContent>

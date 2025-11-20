@@ -4,9 +4,12 @@ const Footer = () => {
   return (
     <footer className="bg-muted/50 border-t border-border">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-8">
           <div>
-            <h3 className="text-lg font-bold text-foreground mb-4">VocaSense</h3>
+            <h3 className="text-lg font-bold mb-4">
+              <span className="text-primary">Voca</span>
+              <span className="text-foreground">Sense</span>
+            </h3>
             <p className="text-sm text-muted-foreground mb-4">
               Real-time, multilingual, privacy-safe speech-to-text APIs for developers.
             </p>
