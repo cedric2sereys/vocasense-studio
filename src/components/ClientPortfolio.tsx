@@ -8,7 +8,7 @@ const ClientPortfolio = () => {
   return (
     <section className="py-12 bg-muted/30 overflow-hidden">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-2xl md:text-3xl font-bold text-center text-foreground mb-8">
+        <h2 className="text-xl font-semibold text-center text-foreground mb-8">
           Trusted by 50,000+ developers
         </h2>
       </div>
