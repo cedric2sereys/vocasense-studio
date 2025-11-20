@@ -26,9 +26,9 @@ const Testimonials = () => {
   return (
     <section className="py-24 bg-muted/30">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-4">
-            Loved by developers
+            Loved by <span className="text-primary">developers</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             See what teams are building with VocaSense
@@ -41,15 +41,20 @@ const Testimonials = () => {
               <CardContent className="pt-6">
                 <div className="flex gap-1 mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} className="h-5 w-5 fill-accent text-accent" />
+                    <Star key={i} className="h-5 w-5 fill-primary text-primary" />
                   ))}
                 </div>
                 <p className="text-foreground mb-6 leading-relaxed">
                   "{testimonial.content}"
                 </p>
-                <div>
-                  <div className="font-semibold text-foreground">{testimonial.name}</div>
-                  <div className="text-sm text-muted-foreground">{testimonial.role}</div>
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center text-white font-bold text-lg">
+                    {testimonial.name.charAt(0)}
+                  </div>
+                  <div>
+                    <div className="font-semibold text-foreground">{testimonial.name}</div>
+                    <div className="text-sm text-muted-foreground">{testimonial.role}</div>
+                  </div>
                 </div>
               </CardContent>
             </Card>

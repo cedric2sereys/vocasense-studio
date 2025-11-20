@@ -10,7 +10,10 @@ const Navbar = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <span className="text-2xl font-bold text-primary">VocaSense</span>
+            <span className="text-2xl font-bold">
+              <span className="text-primary">Voca</span>
+              <span className="text-foreground">Sense</span>
+            </span>
           </div>
 
           {/* Desktop Navigation */}

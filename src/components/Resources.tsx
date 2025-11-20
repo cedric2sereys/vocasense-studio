@@ -6,9 +6,9 @@ const Resources = () => {
   return (
     <section id="resources" className="py-24 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-4">
-            Resources for developers
+            Resources for <span className="text-primary">developers</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Everything you need to integrate VocaSense into your application

@@ -6,9 +6,9 @@ const Community = () => {
   return (
     <section id="community" className="py-24 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-4">
-            Join the community
+            Join the <span className="text-success">community</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Connect with developers building the future of voice-enabled applications
@@ -29,7 +29,9 @@ const Community = () => {
 
           <Card className="hover:shadow-lg transition-shadow">
             <CardContent className="pt-6">
-              <Calendar className="h-10 w-10 text-accent mb-4" />
+              <div className="mb-4 inline-flex p-3 bg-success/10 rounded-lg">
+                <Calendar className="h-10 w-10 text-success" />
+              </div>
               <h3 className="text-xl font-bold mb-2">Developer Events</h3>
               <p className="text-muted-foreground mb-4">
                 Regular Q&A sessions, workshops, and hackathons. Learn from experts and showcase your projects.

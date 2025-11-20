@@ -65,7 +65,7 @@ const Pricing = () => {
           </p>
           <div className="mb-8">
             <h3 className="text-3xl font-bold text-foreground mb-2">Free</h3>
-            <p className="text-muted-foreground mb-4">Developer-friendly pricing model</p>
+            <p className="text-lg text-muted-foreground mb-4"><span className="text-primary font-semibold">Developer-friendly</span> pricing model</p>
             <p className="text-lg text-muted-foreground mb-8">
               Pay only for what you use. No hidden fees.
             </p>
