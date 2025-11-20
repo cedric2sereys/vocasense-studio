@@ -67,7 +67,7 @@ const Features = () => {
                     <>
                       Lightning Fast
                       <p className="text-muted-foreground font-normal text-base mt-2">
-                        <span className="text-primary font-semibold">Sub-100ms latency</span> for real-time transcription. Stream audio and get results instantly with our optimized pipeline.
+                        <span className="text-primary font-semibold">Sub-300ms latency</span> for real-time transcription. Stream audio and get results instantly with our optimized pipeline.
                       </p>
                     </>
                   ) : (
