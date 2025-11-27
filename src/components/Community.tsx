@@ -36,7 +36,7 @@ const Community = () => {
               <p className="text-muted-foreground mb-4">
                 Regular Q&A sessions, workshops, and hackathons. Learn from experts and showcase your projects.
               </p>
-              <Button variant="outline" className="text-success hover:text-success">View Calendar</Button>
+              <Button variant="outline" className="text-success hover:text-success border-success">View Calendar</Button>
             </CardContent>
           </Card>
 
