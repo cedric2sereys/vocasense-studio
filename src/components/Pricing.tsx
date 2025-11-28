@@ -61,7 +61,7 @@ const Pricing = () => {
             Scale with flexible plans
           </p>
           <p className="text-xl text-muted-foreground mb-6">
-            Affordable solutions for startups and independent developers
+            Affordable solutions for <span className="text-success">startups</span> and independent <span className="text-success">developers</span>
           </p>
           <div className="mb-8">
             <h3 className="text-3xl font-bold text-foreground mb-2">Free</h3>
