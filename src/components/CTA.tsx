@@ -14,7 +14,7 @@ const CTA = () => {
             Start building in <span className="text-success">minutes</span>
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Get your free API key and start transcribing in 100+ languages. No credit card required. <span className="text-primary font-semibold">600 free minutes</span> every month.
+            Get your free API key and start transcribing in 100+ languages. No credit card required. <span className="text-primary font-semibold">180 free minutes</span> every month.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
             <Button size="lg" variant="accent">
